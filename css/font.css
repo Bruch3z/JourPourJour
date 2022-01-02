@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Fakt-Normal';
+  src:
+  url('../fonts/Fakt-Normal.otf') format('opentype'),
+  url('../fonts/Fakt-Normal.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+}
