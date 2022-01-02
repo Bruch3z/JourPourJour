@@ -1,25 +1,18 @@
-body, html {
-  height: 100%;
-  margin: 0;
-}
-
-
 .header{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  z-index: 999;
+  color: white;
+  mix-blend-mode: overlay;
+  width: 100vw;
 }
 
-.bg {
-  /* The image used */
-  background-image: url("../imgs/hero/hero.jpg");
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+#Video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
