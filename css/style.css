@@ -105,10 +105,8 @@ p {
 /*//////  g r i d  //////*/
 .calendar {
   display: grid;
-  margin-top: 5rem;
-  margin-left: -0.5rem;
-  margin-right: -0.5rem;
-  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  margin: 5rem -0.5rem 0 -0.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   grid-gap: 1px;
 }
 
@@ -215,6 +213,11 @@ hr {
 
 
 @media only screen and (max-width: 600px) {
+  .calendar {
+    margin: 5rem -1rem 0 -1rem;
+    grid-template-columns: 100%;
+  }
+
   .upper {
       margin-left: 0;
     }
